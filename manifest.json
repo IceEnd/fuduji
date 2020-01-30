@@ -1,8 +1,9 @@
 {
-    "name": "media-loop",
+    "name": "fuduji",
     "version": "1.0",
     "manifest_version": 2,
-    "description": "媒体段落循环播放",
+    "default_locale": "en",
+    "description": "复读媒体中的一段",
     "permissions": [
         "activeTab",
         "tabs"
