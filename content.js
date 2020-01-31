@@ -35,7 +35,7 @@
         }
         timer = setInterval(() => {
             const currentTime = $video.currentTime;
-            if (currentTime < start || currentTime >= end) {
+            if (Math.floor(currentTime) < Math.floor(start) || Math.floor(currentTime) >= Math.floor(end)) {
                 $video.currentTime = start;
                 repeat++;
                 message({

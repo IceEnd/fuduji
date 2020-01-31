@@ -2,7 +2,6 @@
     "name": "fuduji",
     "version": "1.0",
     "manifest_version": 2,
-    "default_locale": "en",
     "description": "复读媒体中的一段",
     "permissions": [
         "activeTab",
